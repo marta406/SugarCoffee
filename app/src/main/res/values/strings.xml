@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Sugar Coffee</string>
+    <string name="welcome">Welcome to our café! \nThis is the place, where you can drink delicious coffee and eat something sweet. \nCome visit our place, to relax and meet your friends!</string>
+    <string name="address">89 Green Street, Blue City</string>
+    <string name="number">Call us: +49 885 888 555</string>
+    <string name="mail">E-mail us: sugar@coffee.uk</string>
+    <string name="hours">We are open everyday 12-22 pm!</string>
+    <string name="www">www.coffee-sugar.com</string>
+</resources>

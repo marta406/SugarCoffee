@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.sugarcoffee.MainActivity"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:id="@+id/activity_main"
+        style="@style/lnr">
+
+        <ImageView
+            android:id="@+id/image"
+            android:src="@drawable/images"
+            style="@style/logo" />
+
+        <TextView
+            android:text="@string/welcome"
+            style="@style/welcome" />
+
+        <RelativeLayout style="@style/rltv">
+
+            <ImageView
+                android:id="@+id/starA"
+                style="@style/star"
+                android:src="@drawable/star2" />
+
+            <TextView
+                style="@style/info"
+                android:text="@string/www" />
+
+            <ImageView
+                android:id="@+id/starB"
+                style="@style/star"
+                android:layout_below="@id/starA"
+                android:src="@drawable/star2" />
+
+            <TextView
+                style="@style/info"
+                android:layout_below="@id/starA"
+                android:text="@string/address" />
+
+            <ImageView
+                android:id="@+id/starC"
+                style="@style/star"
+                android:layout_below="@id/starB"
+                android:src="@drawable/star2" />
+
+            <TextView
+                style="@style/info"
+                android:layout_below="@id/starB"
+                android:layout_toEndOf="@id/starC"
+                android:text="@string/number" />
+
+            <ImageView
+                android:id="@+id/starD"
+                style="@style/star"
+                android:layout_below="@id/starC"
+                android:src="@drawable/star2" />
+
+            <TextView
+                style="@style/info"
+                android:layout_below="@id/starC"
+                android:layout_toEndOf="@id/starC"
+                android:text="@string/mail" />
+        </RelativeLayout>
+
+        <TextView
+            android:text="@string/hours"
+            style="@style/open" />
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,68 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#000000</item>
+        <item name="colorPrimaryDark">#000000</item>
+        <item name="colorAccent">#000000</item>
+    </style>
+
+    <style name="star">
+        <item name="android:layout_width">@dimen/dimen2</item>
+        <item name="android:layout_height">@dimen/dimen2</item>
+        <item name="android:layout_marginBottom">@dimen/dimen2</item>
+        <item name="android:layout_marginTop">3dp</item>
+    </style>
+
+    <style name="info">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">@dimen/dimen2</item>
+        <item name="android:layout_marginLeft">@dimen/dimen2</item>
+        <item name="android:layout_toEndOf">@id/starA</item>
+        <item name="android:textSize">@dimen/dimen5</item>
+    </style>
+
+    <style name="open">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:padding">@dimen/dimen2</item>
+        <item name="android:textColor">@color/brown</item>
+        <item name="android:textSize">@dimen/dimen6</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="rltv">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginRight">@dimen/dimen4</item>
+        <item name="android:layout_marginLeft">@dimen/dimen4</item>
+        <item name="android:layout_marginTop">@dimen/dimen4</item>
+    </style>
+
+    <style name="welcome">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@color/bckgr</item>
+        <item name="android:padding">@dimen/dimen2</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">@dimen/dimen3</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="logo">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">@dimen/dimen1</item>
+        <item name="android:layout_marginBottom">@dimen/dimen7</item>
+    </style>
+
+    <style name="lnr">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:background">@color/white</item>
+    </style>
+
+</resources>
